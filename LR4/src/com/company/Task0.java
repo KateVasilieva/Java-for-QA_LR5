@@ -1,3 +1,5 @@
+package com.company;
+
 public class Task0 {
     public static void main(String[] args) {
         //написать условие, которое сравнит две переменные int low, int high и выведет в консоль текст Уlow is smaller then highФ

@@ -1,4 +1,6 @@
-public class Task1  {
+package numbers;
+
+public class Task1  { //Multiples of 3 or 5
     public static void main(String[] args) {
         //If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
         //Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
@@ -7,12 +9,11 @@ public class Task1  {
 
         int sum = 0;
         int i;
-        for (i = 1; i < 11; i++) {
+        for (i = 0; i < 10; i++) {
             if (i % 3 == 0 || i % 5 == 0)
                     sum = sum + i;
             }
-
-            System.out.println(sum);
+             System.out.println(sum);
         }
 
     }
